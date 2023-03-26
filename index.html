@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Backroads || Tour Company</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <!-- styles css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- header  -->
+    <header id="home">
+      <!-- navbar -->
+      <nav class="navbar">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="./images/logo.svg" class="nav-logo" alt="" />
+            <button type="button" class="nav-toggle" id="nav-toggle">
+              <i class="fas fa-bars"></i>
+              <!-- id=navitoggle botun definiran u .js -->
+            </button>
+          </div>
+          <!-- end of nav header -->
+
+          <!-- nav links  -->
+          <!-- kopirane iz footer links-->
+          <ul class="nav-links" id="nav-links">
+            <!-- single link -->
+            <li>
+              <a href="#home" class="nav-link scrool-link"> Home </a>
+              <!-- #home... povezuje link sa id=home i omogucava quick scroll -->
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#about" class="nav-link scrool-link"> About </a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#services" class="nav-link scrool-link"> Servisec </a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#featured" class="nav-link scrool-link"> Featured </a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#gallery" class="nav-link scrool-link"> Gallery </a>
+            </li>
+            <!-- end of single link -->
+          </ul>
+          <!-- end of nav links -->
+
+          <!-- nav icons -->
+          <!-- kopirane iz footer icins -->
+          <ul class="nav-icons">
+            <!-- single icon -->
+            <li>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="nav-icon"
+              >
+                <i class="fab fa-facebook"> </i
+              ></a>
+            </li>
+            <!-- end of single icon -->
+            <!-- single icon -->
+            <li>
+              <a
+                href="https://www.twitter.com/"
+                target="_blank"
+                class="nav-icon"
+              >
+                <i class="fab fa-twitter"> </i
+              ></a>
+            </li>
+            <!-- end of single icon -->
+            <!-- single icon -->
+            <li>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="nav-icon"
+              >
+                <i class="fab fa-instagram"> </i
+              ></a>
+            </li>
+            <!-- end of single icon -->
+          </ul>
+          <!-- end of nav icons -->
+        </div>
+      </nav>
+      <!-- end of navbar -->
+      <!-- hero -->
+      <div class="hero">
+        <div class="hero-banner">
+          <h1>continue exploring</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetour adipisicing elit. Autem
+            consequatour rem, quidem minima officiis atque.
+          </p>
+          <a href="#featoured" class="btn hero-btn scroll-link"
+            >explore tours</a
+          >
+        </div>
+      </div>
+    </header>
+    <!-- end of header  -->
+
+    <!-- about section -->
+    <section class="section" id="about">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>abouth <span>us</span></h2>
+        <!-- span koristimo da bi mogli ucinit stile element "us" , a section da bi mogli uskldaiti sirinu svih elemenata u razlicitim sectionima -->
+      </div>
+      <!-- end of section title -->
+      <div class="section-center about-center">
+        <!-- about img wrapper -->
+        <article class="about-img">
+          <img
+            src="./images/about.jpeg"
+            class="about-photo"
+            alt="awesome beach"
+          />
+        </article>
+        <!-- abouth info -->
+        <article class="about-info">
+          <h3>explore the difference</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetour, adipisicing elit. Adipisci
+            quibusdam et tempora tempore eligendi aliquam nemo reprehenderit qui
+            voluptatum alias!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetour, adipisicing elit. Adipisci
+            quibusdam et tempora tempore eligendi aliquam nemo reprehenderit qui
+            voluptatum alias!
+          </p>
+          <a href="#" class="btn">read more</a>
+          <!-- ovaj link sluzi samo za scrollanje, zato skoristimo placeholder #  -->
+        </article>
+      </div>
+    </section>
+    <!-- end of about section -->
+
+    <!-- services -->
+    <section class="section services" id="services">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>our <span>services</span></h2>
+      </div>
+      <!-- end of section title -->
+      <div class="section-center services-center">
+        <!-- single service -->
+        <article class="service">
+          <!-- unutar ovoga aeticle-a imamo 2 child elementa jedan je ikona (span), a druga div (text i naslov) -->
+          <span class="service-icon">
+            <i class="fas fa-wallet fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="service-title">saving money</h4>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet, consectetour adipisicing elit.
+              Explicabo reprehenderit maxime quidem aperiam nulla maiores.
+            </p>
+          </div>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-tree fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="service-title">endless bikig</h4>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet, consectetour adipisicing elit.
+              Explicabo reprehenderit maxime quidem aperiam nulla maiores.
+            </p>
+          </div>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-socks fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="service-title">amazing comfort</h4>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet, consectetour adipisicing elit.
+              Explicabo reprehenderit maxime quidem aperiam nulla maiores.
+            </p>
+          </div>
+        </article>
+        <!-- end of single service -->
+      </div>
+    </section>
+
+    <!--end services -->
+
+    <!-- featoured tours -->
+    <section class="section" id="featured">
+      <!-- id=featoured je predhodno linkan na btn "explore tours" -->
+      <!-- section title -->
+      <div class="section-title">
+        <h2>featoured <span>tours</span></h2>
+      </div>
+      <!-- end of section title -->
+      <!-- featoured-center -->
+      <div class="section-center featoured-center">
+        <!-- single tour1 -->
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./images/tour-1.jpeg" class="tour-img" alt="tour-img" />
+            <p class="tour-date">august 26th 2023</p>
+          </div>
+          <!-- tour info -->
+          <div class="tour-info">
+            <div class="tour-title">
+              <h4>Tibet adventoure</h4>
+              <p>9 days</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetour adipisicing elit.
+              Dignissimos similique vero minus voluptatibus. Dolore sit
+              perspiciatis ipsum tempora beatae! Dolor amet tenetour provident
+              placeat cum.
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span>
+                  <i class="fas fa-map"> China</i>
+                </span>
+              </p>
+              <p>From $2400</p>
+            </div>
+          </div>
+        </article>
+        <!-- end of single tour1 -->
+        <!-- single tour2 -->
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./images/tour-2.jpeg" class="tour-img" alt="tour-img" />
+            <p class="tour-date">october 1st 2023</p>
+          </div>
+          <!-- tour info -->
+          <div class="tour-info">
+            <h4>Best of Java</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetour adipisicing elit.
+              Dignissimos similique vero minus voluptatibus. Dolore sit
+              perspiciatis ipsum tempora beatae! Dolor amet tenetour provident
+              placeat cum.
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span>
+                  <i class="fas fa-map"> Indonesia</i>
+                </span>
+              </p>
+              <p>11 days</p>
+              <p>From $2000</p>
+            </div>
+          </div>
+        </article>
+        <!-- end of single tour2 -->
+        <!-- single tour3 -->
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./images/tour-3.jpeg" class="tour-img" alt="tour-img" />
+            <p class="tour-date">september 15th 2023</p>
+          </div>
+          <!-- tour info -->
+          <div class="tour-info">
+            <div class="tour-title">
+              <h4>Explore Hong Kong</h4>
+              <p>8 days</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetour adipisicing elit.
+              Dignissimos similique vero minus voluptatibus. Dolore sit
+              perspiciatis ipsum tempora beatae! Dolor amet tenetour provident
+              placeat cum.
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span>
+                  <i class="fas fa-map"> Hong Kong</i>
+                </span>
+              </p>
+              <p>From $5000</p>
+            </div>
+          </div>
+        </article>
+        <!-- end of single tour3 -->
+        <!-- single tour4 -->
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./images/tour-4.jpeg" class="tour-img" alt="tour-img" />
+            <p class="tour-date">december 5th 2023</p>
+          </div>
+          <!-- tour info -->
+          <div class="tour-info">
+            <h4>Kenia highlights</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetour adipisicing elit.
+              Dignissimos similique vero minus voluptatibus. Dolore sit
+              perspiciatis ipsum tempora beatae! Dolor amet tenetour provident
+              placeat cum.
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span>
+                  <i class="fas fa-map"> Kenia</i>
+                </span>
+              </p>
+              <p>10 days</p>
+              <p>From $3200</p>
+            </div>
+          </div>
+        </article>
+        <!-- end of single tour4 -->
+      </div>
+      <div class="tour-btn">
+        <a href="#" class="btn">all tours</a>
+      </div>
+    </section>
+
+    <!-- end of featoured tours -->
+
+    <!-- contact -->
+    <section class="section contact" id="contact">
+      <div class="section-center contact-center">
+        <!-- contact title -->
+        <article class="contact-title">
+          <h3>want latest tour info and updates?</h3>
+          <p>sign up for newsletter and stay up to date</p>
+        </article>
+        <!-- contact form -->
+        <form action="#" class="contact-form">
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            placeholder="Your email"
+          />
+          <button type="submit" class="btn-submit">Confirm</button>
+        </form>
+        <!-- u ovom projektu nismo odradili cili form, vidi Tea Ststaion, tamo je ucinjen -->
+      </div>
+    </section>
+
+    <!-- end of contact -->
+
+    <!-- gallery  -->
+    <section id="gallery">
+      <div class="gallery-center">
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/tour-1.jpeg" class="gallery-img" alt="SLIKA1" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/tour-2.jpeg" class="gallery-img" alt="SLIKA2" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/tour-3.jpeg" class="gallery-img" alt="SLIKA3" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/tour-4.jpeg" class="gallery-img" alt="SLIKA4" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/tour-5.jpeg" class="gallery-img" alt="SLIKA5" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/tour-6.jpeg" class="gallery-img" alt="SLIKA6" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/tour-1.jpeg" class="gallery-img" alt="SLIKA7" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/tour-2.jpeg" class="gallery-img" alt="SLIKA8" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+      </div>
+    </section>
+
+    <!-- end of gallery  -->
+
+    <!-- footer -->
+    <footer class="section footer">
+      <!-- footer links -->
+      <ul class="footer-links">
+        <!-- single link -->
+        <li>
+          <a href="#home" class="footer-link scrool-link"> Home </a>
+          <!-- #home... povezuje link sa id=home i omogucava quick scroll -->
+        </li>
+        <!-- end of single link -->
+        <!-- single link -->
+        <li>
+          <a href="#about" class="footer-link scrool-link"> About </a>
+        </li>
+        <!-- end of single link -->
+        <!-- single link -->
+        <li>
+          <a href="#services" class="footer-link scrool-link"> Servisec </a>
+        </li>
+        <!-- end of single link -->
+        <!-- single link -->
+        <li>
+          <a href="#featured" class="footer-link scrool-link"> Featured </a>
+        </li>
+        <!-- end of single link -->
+        <!-- single link -->
+        <li>
+          <a href="#gallery" class="footer-link scrool-link"> Gallery </a>
+        </li>
+        <!-- end of single link -->
+      </ul>
+      <!-- end of footer links -->
+      <!-- footer icons -->
+      <ul class="footer-icons">
+        <!-- single icon -->
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="footer-icon"
+          >
+            <i class="fab fa-facebook"> </i
+          ></a>
+        </li>
+        <!-- end of single icon -->
+        <!-- single icon -->
+        <li>
+          <a
+            href="https://www.twitter.com/"
+            target="_blank"
+            class="footer-icon"
+          >
+            <i class="fab fa-twitter"> </i
+          ></a>
+        </li>
+        <!-- end of single icon -->
+        <!-- single icon -->
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="footer-icon"
+          >
+            <i class="fab fa-instagram"> </i
+          ></a>
+        </li>
+        <!-- end of single icon -->
+      </ul>
+      <!-- end of footer icons -->
+      <p class="copyright">
+        copyright &copy; backroads travel tour company
+        <span id="date"></span>
+        <!-- id=date se povezije na js. komponentu css-a i odabire aktualnu godinu -->
+        all rights reserved
+      </p>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- js -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
